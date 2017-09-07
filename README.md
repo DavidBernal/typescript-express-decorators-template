@@ -16,6 +16,11 @@ $ npm install # Or yarn install
 
 > Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
 
+## Feature
+
+You can define class-like components and use decorators, without lose `asyncData` function.
+For more info looks https://github.com/DavidBernal/nuxt-property-decorator
+
 ## Usage
 
 ### Development
