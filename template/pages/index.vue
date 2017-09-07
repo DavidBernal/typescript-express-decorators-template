@@ -25,7 +25,6 @@ export default class UserList extends Vue {
 
   async asyncData ({ params }) {
     var res = await axios.get('/api/users');
-    console.log(params);
     return {
       users: res.data
     }
