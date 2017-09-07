@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"lib": [
+			"es6",
+			"dom"
+		],
+		"module": "es6",
+		"target": "es5",
+		"moduleResolution": "node",
+		"experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*" : ["./*"],
+      "~assets/*": ["./assets/*"],
+      "~components/*": ["./components/*"],
+      "~modules/*": ["./modules/*"],
+      "~pages/*": ["./pages/*"],
+      "~plugins/*": ["./plugins/*"],
+      "~static/*": ["./static/*"],
+      "~router": ["./.nuxt/router"],
+      "~interfaces": ["./interfaces"]
+    },
+		"typeRoots": [
+			"node_modules/@types"
+		]
+	}
+}
