@@ -1,5 +1,5 @@
 module.exports = {
-  skipInterpolation: 'template/**/*.vue',
+  skipInterpolation: '**/*.vue',
   helpers: {
     raw: function(options) {
       return options.fn(this)
